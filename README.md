@@ -18,13 +18,15 @@ The data was checked for any mouse ID with duplicate time points -  all data ass
     * All numbers in these tables match except for the variance and standard deviation columns, which differ slightly. This is because the method combining series uses ddof=0 for variance and std dev. Meanwhile, the aggregate feature has a default ddof = 1. 
 * A bar plot was generated using both Pandas's DataFrame.plot() and Matplotlib's pyplot - it shows the number of total mice for each treatment regimen throughout the course of the study. These plotting methods generate the same output.
 * A pie plot was generated using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study. These plotting methods generate the same output.
-* The final tumor volume of each mouse across four of the most promising treatment regimens was calculated: Capomulin, Ramicane, Infubinol, and Ceftamin. The quartiles and IQR were also calculated, and quantitatively determine if there are any potential outliers across all four treatment regimens.
-* A box and whisker plot of the final tumor volume for all four treatment regimens was generated, and potential outliers in the plot were identified by changing their color and style.
-* Select a mouse that was treated with Capomulin and generate a line plot of time point versus tumor volume for that mouse.
+* The final tumor volume of each mouse across four of the most promising treatment regimens was calculated: Capomulin, Ramicane, Infubinol, and Ceftamin. The quartiles and IQR were also calculated. From this information, it was noted that only Infubinol showed an outlier.
+* A box and whisker plot of the final tumor volume for all four treatment regimens was generated, and potential outliers in the plot were identified by changing their color and style. After plotting, it can again be seen that Infubinol shows an outlier, as expected from the above calculations.
+* Mouse i557, treated with Capomulin, was selected a line plot of time point versus tumor volume was generated.
 * A scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen was generated.
-* The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was calculated. The linear regression model was then plotted on top of the previous scatter plot.
+* The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was calculated. The linear regression model was then plotted on top of the previous scatter plot, along with the linear regression equation.
 
-Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+### Analyses Performed
+
+There is a great deal of information contained in this investigation. Three observations can be found at the top of the jupyter notebook.
 
 ### Files Included
 * pymaceuticals_AP - jupyter notebook file containing all analyses
