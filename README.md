@@ -2,7 +2,7 @@
 
 ## Challenge Details
 
-This challenge assumed that an anti-cancer drug company, Pymaceuticals Inc., has requested an indepth investigation into a recent study performed: 249 mice with squamous cell carcinoma (SCC) were studied over 45 days while being treated with different drug regimens. The study measured the change in growth of the tumors on each mouse. The attached analysis simulates a technical report that would be given to the company to determine if their drug of interest, Capomulin, stands out from the other drugs in the study.
+This challenge assumed that an anti-cancer drug company, Pymaceuticals Inc., has requested an in-depth investigation into a recent study performed: 249 mice with squamous cell carcinoma (SCC) were studied over 45 days while being treated with different drug regimens. The study measured the change in growth of the tumors on each mouse. The attached analysis simulates a technical report that would be given to the company to determine if their drug of interest, Capomulin, stands out from the other drugs in the study.
 
 The focus of this challenge was to utilize both the Python libraries Pandas and Matplotlib to visualize the results of the investigation.
 
